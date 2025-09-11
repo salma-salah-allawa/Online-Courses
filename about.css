@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 2;
+  /* background: linear-gradient(135deg, #e0eafc, #cfdef3); */
+  /* background-color: aliceblue; */
+  margin: 0%;
+  padding: 0%;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #b6889b;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #6e4b66, #b6889b);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #5b3d55, #a5768b);
+}
+::selection{
+  background-color: #e8bcb9;
+  color: white;
+  border-radius: 80px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+header {
+  padding: 20px 0;
+  /* background-color: #293352;  */
+  background: linear-gradient(135deg, #e8bcb9,#432e54);
+  color: white;
+  border-bottom-left-radius: 15PX;
+  border-bottom-right-radius: 15PX;
+  animation-name: fadeInHeader;
+    animation-duration: 600ms;
+    animation-fill-mode: both;
+}
+
+header h1 {
+  text-align: center;
+  font-size: xx-large;
+  margin: 0;
+  /* text-transform: uppercase; */
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  /* color: #253668; */
+  color: #411852;
+  text-shadow: 2px 2px 2px #691c88a5;
+  text-decoration: underline;
+  text-decoration-color: aliceblue;
+}
+.about {
+  /* background-color: #fff; */
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-teacher-s-college-classroom-coaching-course-poster-background-image_188494.jpg);
+  padding: 40px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 80px;
+  color: #0e0d0f;
+  text-shadow: -5px 8px 21px rgba(136, 77, 127, 0.71);
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 22px;
+  color: rgba(22, 21, 19, 0.858);
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+footer {
+  border-radius: 15px 15px 0 0 ;
+  background: linear-gradient(135deg,#e8bcb9, #432e54, #e8bcb9);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  -webkit-box-shadow: -1px -4px 17px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -4px 17px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px -4px 17px -4px rgba(0, 0, 0, 0.75);
+}
+
+@keyframes fadeInHeader {
+  0% {
+    opacity: 80%;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
+  100% {
+    opacity: 100%;
+    -webkit-box-shadow: -1px 2px 17px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 2px 17px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 2px 17px 0px rgba(0, 0, 0, 0.75);
+  }
+}
