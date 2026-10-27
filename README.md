@@ -38,6 +38,3 @@ Contributed to the frontend development of the website as part of the project te
 Salma Salah 
 
 Developed collaboratively with university team members.
-Salma Salah Eldin Allawa
-
-Developed collaboratively with university team members.
